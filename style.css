@@ -25,6 +25,9 @@
     }
     .jos a:hover{
         color: rgb(9, 5, 36);
+        opacity:0.89;
+        filter: blur(0.0025rem);
+        transition: all ease-in-out 0.35s;
     }
 .walp{
     display: none;
@@ -40,7 +43,7 @@
     margin-top: 20px;
 }
 .container-projects{
-text-align: center;
+    text-align: center;
     width: 100%;
     margin-top: 0px;  
 }
@@ -49,12 +52,13 @@ text-align: center;
     cursor:pointer;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 45px;
-    color: #ff2e51;
+    color: rgb(250, 241, 255);
     line-height: 44px;
     text-align: center;
 }
 .container-projects h2{
     padding: 30px 30px 20px;
+    cursor:pointer;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     color: #139099;
@@ -85,7 +89,11 @@ text-align: center;
 color: #ff2e51;
 text-decoration: none;
 transition: all ease-in-out 0.35s;
-cursor:pointer;
+}
+.licenta:hover a{
+    opacity: 0.55;
+    filter: blur(0.0025rem);
+    transition: all ease-in-out 0.35s;
 }
 
 .img-info{
@@ -95,9 +103,10 @@ cursor:pointer;
     padding: 30px 30px 20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 45px;
-    color: #ff2e51;
+    color: rgb(250, 241, 255);
     text-align: center;
     line-height: 54px;
+    cursor:pointer;
 } 
 .img-info p{
     padding: 0px 30px 20px;
@@ -272,11 +281,14 @@ font-size: 15px;
         font-size: 250px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         color: whitesmoke;
+        cursor:pointer;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .text-walp h1:hover{
         color: rgba(14, 14, 71, 0.836);
         transition: all ease-in-out 0.35s;
+        cursor:pointer;
+        
         
     }
     nav{
@@ -349,17 +361,23 @@ font-size: 15px;
     } 
     .img-info p{
         padding: 20px 0px 0px 30px;
-        font-size: 19px;
+        font-size: 17px;
     } 
     .img-info p:hover{
-        color:rgb(157, 255, 255) ;
-        transition: .35s;
+        color:rgb(233, 205, 248);
+        transition: all ease-in-out 0.35s;
+        cursor: pointer;
     }
     .img-me{
         padding-top: 0px;
         width: 50%;
         float: left;
         
+    }
+    .img-info:hover h2{
+        opacity: 0.25;
+        filter: blur(0.0625rem);
+        transition: all ease-in-out 0.35s;
     }
 }
 
