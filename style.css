@@ -85,6 +85,11 @@ color: #ff2e51;
 text-decoration: none;
 transition: all ease-in-out 0.35s;
 }
+.licenta:hover a{
+    opacity: 0.55;
+    filter: blur(0.0025rem);
+    transition: all ease-in-out 0.35s;
+}
 
 .img-info{
     width: 100%;
@@ -351,13 +356,18 @@ font-size: 15px;
     } 
     .img-info p:hover{
         color:rgb(157, 255, 255) ;
-        transition: .35s;
+        transition: all ease-in-out 0.35s;
     }
     .img-me{
         padding-top: 0px;
         width: 50%;
         float: left;
         
+    }
+    .img-info:hover h2{
+        opacity: 0.25;
+        filter: blur(0.0625rem);
+        transition: all ease-in-out 0.35s;
     }
 }
 
